@@ -40,6 +40,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/hacker-quotes.svg)](https://greenkeeper.io/)
+
 A JSON file containing an array of CS/Programming related quotes.
 
 ## Install
