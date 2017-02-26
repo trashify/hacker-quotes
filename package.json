@@ -1,0 +1,37 @@
+{
+  "name": "hacker-quotes",
+  "version": "1.0.0",
+  "description": "A collection of CS/Programming related quotes",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/hacker-quotes.git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/hacker-quotes",
+  "bugs": "https://github.com/tiaanduplessis/hacker-quotes/issues",
+  "author": {
+    "name": "Tiaan",
+    "email": "tiaanduplessis@hotmail.com",
+    "url": "tiaanduplessis.co.za"
+  },
+
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "npm test -- -w",
+  	"lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "pretest": "npm run lint:fix",
+    "test": "mocha"
+  },
+  "keywords": [
+    "quotes,",
+    "json",
+    "hacker-quotes"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  }
+}
